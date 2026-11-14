@@ -1,0 +1,23 @@
+[project]
+name = "mayfly"
+version = "0.1.0"
+description = "Privacy-aware IPv6 ND monitoring across address rotation (AIORI-3 PS-007)"
+requires-python = ">=3.11"
+dependencies = ["cryptography>=42"]
+
+[project.optional-dependencies]
+lab = ["scapy>=2.5"]
+eval = ["pandas", "matplotlib"]
+dashboard = ["streamlit"]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["mayfly*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "privacy"]
+pythonpath = [".", "tests"]

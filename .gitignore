@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+# FR-U2: never commit captures or raw logs
+*.pcap
+*.pcapng
+runs/
