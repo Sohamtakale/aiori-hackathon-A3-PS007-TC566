@@ -1,5 +1,7 @@
 # Mayfly
 
+**Project Intro:** [https://youtu.be/pRCsOexsugE](https://youtu.be/pRCsOexsugE)
+
 Privacy-aware IPv6 IoT security monitoring across address rotation (AIORI-3, PS-007).
 Spec: `docs/Mayfly — Product Requirements Document.pdf`.
 
